@@ -11,22 +11,6 @@ Notre application de chat en groupe offre une plateforme sécurisée et interact
 * Discussions en groupe : Une fois connecté, l'utilisateur peut accéder à une liste des différents groupes de discussion disponibles dans le réseau local. Il peut choisir de rejoindre un groupe spécifique ou créer son propre groupe s'il le souhaite. Les messages envoyés par un utilisateur sont visibles par tous les autres membres du groupe, permettant ainsi les conversations en temps réel.
 * Fonctionnalités de base de discussion : L'application de chat en groupe offre des fonctionnalités de base telles que l'envoi de messages texte, l'envoi de fichiers, l'ajout de réactions aux messages et la suppression de messages inappropriés. Ces fonctionnalités facilitent la collaboration et favorisent une expérience de discussion fluide.
 
-## Développement et introduction technique au projet
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=Or6CZizFghM">
-      <img src="https://img.youtube.com/vi/Or6CZizFghM/0.jpg" alt="introduction au projet" />
-  </a>
-</p>
-
-## Documents
-- [Requirements](presentation/2_poo_unh_cahier_23.pdf)
-- [Speciations](presentation/2_poo_unh_besoins_23.pdf)
-- [UML Diagrams](presentation/2_poo_unh_uml_23.pdf)
-
-  ## Screenshots
-
-![login](presentation/screenshot-1.png)
-![chat](presentation/screenshot-2.png)
 
 
