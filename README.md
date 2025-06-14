@@ -29,10 +29,4 @@ Notre application de chat en groupe offre une plateforme sécurisée et interact
 ![login](presentation/screenshot-1.png)
 ![chat](presentation/screenshot-2.png)
 
-## Team 
-- CANSA KAYEMBE AMAURY
-- KINYANTA NKONKOSHA DANIEL
-- KAYOMBO KAKANGA RUSADE
-- MWENDA MUKUNTU MIKE
-- TSHABU NGANDU BERNARD
 
