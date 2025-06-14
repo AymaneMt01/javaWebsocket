@@ -26,6 +26,9 @@
 
 This project implements an end-to-end unsupervised machine learning system for malware analysis, featuring clustering and dimensionality reduction techniques. The system includes a complete MLOps pipeline with Kubeflow orchestration, FastAPI backend deployment, Angular frontend interface, and comprehensive analysis reporting.
 
+![System Overview](images/system-overview.png)
+*Complete system architecture and workflow*
+
 ### Key Technologies
 - **Machine Learning**: Scikit-learn, PCA, t-SNE, K-Means, EM, SOM, DBSCAN
 - **Backend**: FastAPI, Python 3.8+
@@ -45,6 +48,9 @@ This project implements an end-to-end unsupervised machine learning system for m
 - **🐳 Containerized**: Docker-ready deployment with Kubernetes support
 
 ## 🏗️ Architecture
+
+![Architecture Diagram](images/architecture-diagram.png)
+*High-level system architecture*
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -120,11 +126,28 @@ cp .env.example .env
 # Create data directory
 mkdir data
 
+# Create images directory for screenshots
+mkdir images
+
 # Download EMBER dataset (example)
 # Place your malware dataset in data/malware_features.csv
 ```
 
 ## 💻 Usage
+
+### Screenshots
+
+![Landing Page](images/landing-page.png)
+*Angular frontend landing page*
+
+![Prediction Interface](images/prediction-interface.png)
+*Malware feature input form*
+
+![Results Visualization](images/results-visualization.png)
+*Clustering results with 2D scatter plot*
+
+![API Documentation](images/api-docs.png)
+*FastAPI automatic documentation*
 
 ### Local Development
 
@@ -205,6 +228,14 @@ For complete API documentation, visit `/docs` when the server is running.
 
 ## ⚙️ MLOps Pipeline
 
+### Pipeline Overview
+
+![Kubeflow Pipeline](images/kubeflow-pipeline.png)
+*Complete MLOps pipeline in Kubeflow*
+
+![Pipeline Execution](images/pipeline-execution.png)
+*Pipeline execution dashboard*
+
 ### Kubeflow Pipeline Components
 
 1. **Data Ingestion** (Airflow)
@@ -241,6 +272,20 @@ python kubeflow/run_pipeline.py
 
 ## 📊 Results & Analysis
 
+### Visualization Examples
+
+![Clustering Results](images/clustering-results.png)
+*2D visualization of malware clusters using PCA*
+
+![t-SNE Visualization](images/tsne-visualization.png)
+*t-SNE dimensionality reduction results*
+
+![Feature Importance](images/feature-importance.png)
+*Principal component analysis - feature contribution*
+
+![Performance Comparison](images/performance-comparison.png)
+*Clustering algorithms performance comparison*
+
 ### Clustering Algorithms Comparison
 
 | Algorithm | Silhouette Score | Davies-Bouldin Index | Execution Time |
@@ -258,6 +303,17 @@ python kubeflow/run_pipeline.py
 - **Visualization**: Clear separation visible in 2D PCA space
 
 ## 🚢 Deployment
+
+### Monitoring Dashboard
+
+![Prometheus Metrics](images/prometheus-metrics.png)
+*System metrics monitoring with Prometheus*
+
+![Grafana Dashboard](images/grafana-dashboard.png)
+*Real-time performance dashboard in Grafana*
+
+![Kubernetes Deployment](images/kubernetes-deployment.png)
+*Kubernetes cluster deployment status*
 
 ### Production Deployment Options
 
@@ -286,12 +342,34 @@ kubectl apply -f monitoring/grafana/
 
 ## 📈 Performance Metrics
 
+### System Performance Screenshots
+
+![API Performance](images/api-performance.png)
+*FastAPI response time metrics*
+
+![Model Accuracy](images/model-accuracy.png)
+*Clustering quality metrics visualization*
+
+![Resource Usage](images/resource-usage.png)
+*System resource utilization monitoring*
+
 - **API Response Time**: < 100ms (95th percentile)
 - **Clustering Accuracy**: 89% silhouette score
 - **System Uptime**: 99.9% availability
 - **Throughput**: 1000 predictions/minute
 
 ## 🧪 Testing
+
+### Test Results Screenshots
+
+![Unit Tests](images/unit-tests.png)
+*Unit test coverage and results*
+
+![Integration Tests](images/integration-tests.png)
+*Integration test execution results*
+
+![E2E Tests](images/e2e-tests.png)
+*End-to-end test automation results*
 
 ### Run Unit Tests
 ```bash
